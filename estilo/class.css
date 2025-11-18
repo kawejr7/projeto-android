@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+.mundotech {
+    font-size: 1.3em;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.texto {
+    padding: 2px;
+    text-indent: 30px;
+}
+
+.destacarlink {
+    font-size: 1.02em;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #0b680b;
+    text-decoration: none;
+}
+
+.destacarlink:hover {
+    text-decoration: underline;
+}
+
+.destacarlink:active {
+    color: yellow;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+.lista {
+    text-decoration: underline;
+    list-style-type: none;
+}
+
+nav:hover {
+        a {
+            color: #777977;
+        }
+}
+
+nav > a:hover {
+    color: #fff;
+    background-color: rgba(8, 185, 8, 0.889);
+    text-decoration: underline;
+    font-size: 1.1em;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+    box-shadow: 3px 2px 3px 1px rgba(0, 0, 0, 0.132);
+}
+
+nav > a:active {
+    color: yellow;
+}
+
+.linkfinal {
+    color: #fff;
+    font-weight: bold;
+}
+
+.linkfinal:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.256);
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 1px 3px rgba(0, 0, 0, 0.158);
+    text-decoration: none;
+}
+
+.linkfinal:active {
+    background-color: black;
+    color: #fff;
+}
