@@ -27,78 +27,6 @@
     padding: 0px;
 }
 
-body {
-    background-color: var(--cor01);
-    font-family: var(--fonte-padrao);
-}
-
-main {
-    background-color: #fff;
-    min-width: 300px;
-    max-width: 1000px;
-    margin: auto;
-    margin-top: 35px;
-    margin-bottom: 10px;
-    padding: 20px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.298);
-    
-}
-
-main h1 {
-    color: var(--cor06);
-    font-family: var(--fonte-android);
-    font-weight: normal;
-    text-align: center;
-}
-
-main h2 {
-    font-family: var(--fonte-android);
-    font-weight: normal;
-    color: var(--cor06);
-    background-image: linear-gradient(to right, var(--cor02), transparent);
-    padding: 2px;
-    text-indent: 15px;
-}
-
-main img {
-    width: 100%;
-}
-
-main img.pequena {
-    max-width: 350px;
-    display: block;
-    margin: auto;
-}
-
-
-main p {
-    font-size: 1.15em;
-    margin: 5px 0px;
-    text-indent: 25px;
-    text-align: justify;
-    line-height: 1.4em;
-}
-
-main strong {
-    color: var(--cor06);
-}
-
-main a {
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--cor06);
-    background-color: var(--cor01);
-    padding: 2px 5px;
-}
-
-main a:hover {
-    background-color: var(--cor02);
-    text-decoration: underline;
-    padding: 3px 6px;
-}
-
 header {
     background-image: linear-gradient(to top, var(--cor06), var(--cor03));
     min-height: 150px;
@@ -135,17 +63,13 @@ nav {
 
 nav > a {
     color: #fff;
-    padding: 10px 2px;
+    padding: 10px 4px;
     text-decoration: none;
     font-size: 0.9em;
     font-weight: bold;
     transition-duration: 1s;
     text-align: center;
     margin: 0px;
-}
-
-.esquerda {
-    padding-left: 6px;
 }
 
 nav a:hover {
@@ -156,6 +80,76 @@ nav a:hover {
 
 nav:has(a:hover) a:not(:hover) {
     color: var(--cor06);
+}
+
+body {
+    background-color: var(--cor01);
+    font-family: var(--fonte-padrao);
+}
+
+main {
+    background-color: #fff;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.298);
+}
+
+main h1 {
+    color: var(--cor06);
+    font-family: var(--fonte-android);
+    font-weight: normal;
+    text-align: center;
+}
+
+main h2 {
+    font-family: var(--fonte-android);
+    font-weight: normal;
+    color: var(--cor06);
+    background-image: linear-gradient(to right, var(--cor02), transparent);
+    padding: 2px;
+    text-indent: 15px;
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+main p {
+    font-size: 1.15em;
+    margin: 5px 0px;
+    text-indent: 25px;
+    text-align: justify;
+    line-height: 1.4em;
+}
+
+main strong {
+    color: var(--cor06);
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor06);
+    background-color: var(--cor01);
+    padding: 2px 5px;
+}
+
+main a:hover {
+    background-color: var(--cor02);
+    text-decoration: underline;
+    padding: 3px 6px;
 }
 
 a.externo:after {
